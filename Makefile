@@ -1,7 +1,7 @@
 build-mar:	
 	torch-model-archiver --model-name hdr --version 1.0 --model-file ./model.py \
 	--serialized-file ./weights.pth --handler handler.py \
-	--extra-files ./util.py  --force
+	--extra-files ./util.py  --requirements-file ./requirements.txt --force
 	mkdir -p model_store
 	mv  hdr.mar ./model_store/	
 	
