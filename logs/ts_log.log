@@ -1,0 +1,431 @@
+2022-06-14T07:54:22,715 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2022-06-14T07:54:22,715 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2022-06-14T07:54:22,800 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.6.0
+TS Home: /home/uneidel/.local/lib/python3.8/site-packages
+Current directory: /home/uneidel/Documents/projects/torchserve_s3_handler
+Temp directory: /tmp
+Number of GPUs: 0
+Number of CPUs: 16
+Max heap size: 3996 M
+Python executable: /usr/bin/python3
+Config file: config.properties
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: /home/uneidel/Documents/projects/torchserve_s3_handler/model_store
+Initial Models: hdr=hdr.mar
+Log dir: /home/uneidel/Documents/projects/torchserve_s3_handler/logs
+Metrics dir: /home/uneidel/Documents/projects/torchserve_s3_handler/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 16
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /home/uneidel/Documents/projects/torchserve_s3_handler/model_store
+Model config: N/A
+2022-06-14T07:54:22,800 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.6.0
+TS Home: /home/uneidel/.local/lib/python3.8/site-packages
+Current directory: /home/uneidel/Documents/projects/torchserve_s3_handler
+Temp directory: /tmp
+Number of GPUs: 0
+Number of CPUs: 16
+Max heap size: 3996 M
+Python executable: /usr/bin/python3
+Config file: config.properties
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: /home/uneidel/Documents/projects/torchserve_s3_handler/model_store
+Initial Models: hdr=hdr.mar
+Log dir: /home/uneidel/Documents/projects/torchserve_s3_handler/logs
+Metrics dir: /home/uneidel/Documents/projects/torchserve_s3_handler/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 16
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /home/uneidel/Documents/projects/torchserve_s3_handler/model_store
+Model config: N/A
+2022-06-14T07:54:22,810 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2022-06-14T07:54:22,810 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2022-06-14T07:54:22,827 [INFO ] main org.pytorch.serve.ModelServer - Loading initial models: hdr.mar
+2022-06-14T07:54:22,827 [INFO ] main org.pytorch.serve.ModelServer - Loading initial models: hdr.mar
+2022-06-14T07:54:22,865 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model hdr
+2022-06-14T07:54:22,865 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model hdr
+2022-06-14T07:54:22,866 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model hdr
+2022-06-14T07:54:22,866 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model hdr
+2022-06-14T07:54:22,866 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model hdr loaded.
+2022-06-14T07:54:22,866 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model hdr loaded.
+2022-06-14T07:54:22,866 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: hdr, count: 16
+2022-06-14T07:54:22,866 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: hdr, count: 16
+2022-06-14T07:54:22,874 [DEBUG] W-9009-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9009]
+2022-06-14T07:54:22,874 [DEBUG] W-9000-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000]
+2022-06-14T07:54:22,874 [DEBUG] W-9008-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9008]
+2022-06-14T07:54:22,874 [DEBUG] W-9004-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9004]
+2022-06-14T07:54:22,874 [DEBUG] W-9011-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9011]
+2022-06-14T07:54:22,874 [DEBUG] W-9003-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9003]
+2022-06-14T07:54:22,874 [DEBUG] W-9005-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9005]
+2022-06-14T07:54:22,874 [DEBUG] W-9001-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9001]
+2022-06-14T07:54:22,874 [DEBUG] W-9006-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9006]
+2022-06-14T07:54:22,874 [DEBUG] W-9010-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9010]
+2022-06-14T07:54:22,874 [DEBUG] W-9007-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9007]
+2022-06-14T07:54:22,874 [DEBUG] W-9000-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000]
+2022-06-14T07:54:22,874 [DEBUG] W-9006-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9006]
+2022-06-14T07:54:22,874 [DEBUG] W-9005-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9005]
+2022-06-14T07:54:22,875 [DEBUG] W-9002-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9002]
+2022-06-14T07:54:22,874 [DEBUG] W-9007-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9007]
+2022-06-14T07:54:22,875 [DEBUG] W-9002-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9002]
+2022-06-14T07:54:22,875 [DEBUG] W-9012-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9012]
+2022-06-14T07:54:22,874 [DEBUG] W-9003-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9003]
+2022-06-14T07:54:22,874 [DEBUG] W-9008-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9008]
+2022-06-14T07:54:22,874 [DEBUG] W-9011-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9011]
+2022-06-14T07:54:22,874 [DEBUG] W-9001-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9001]
+2022-06-14T07:54:22,874 [DEBUG] W-9009-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9009]
+2022-06-14T07:54:22,874 [DEBUG] W-9010-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9010]
+2022-06-14T07:54:22,878 [DEBUG] W-9013-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9013]
+2022-06-14T07:54:22,878 [DEBUG] W-9014-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9014]
+2022-06-14T07:54:22,874 [DEBUG] W-9004-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9004]
+2022-06-14T07:54:22,878 [DEBUG] W-9015-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9015]
+2022-06-14T07:54:22,875 [DEBUG] W-9012-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9012]
+2022-06-14T07:54:22,878 [DEBUG] W-9014-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9014]
+2022-06-14T07:54:22,878 [DEBUG] W-9015-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9015]
+2022-06-14T07:54:22,878 [DEBUG] W-9013-hdr_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3, /home/uneidel/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9013]
+2022-06-14T07:54:22,889 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2022-06-14T07:54:22,889 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2022-06-14T07:54:22,986 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2022-06-14T07:54:22,986 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2022-06-14T07:54:22,986 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2022-06-14T07:54:22,986 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2022-06-14T07:54:22,987 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2022-06-14T07:54:22,987 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2022-06-14T07:54:22,987 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2022-06-14T07:54:22,987 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2022-06-14T07:54:22,988 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2022-06-14T07:54:22,988 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2022-06-14T07:54:23,204 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-06-14T07:54:23,204 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-06-14T07:54:23,239 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:50.0|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186063
+2022-06-14T07:54:23,241 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:281.9109535217285|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186063
+2022-06-14T07:54:23,241 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:586.9203453063965|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186063
+2022-06-14T07:54:23,241 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:67.6|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186063
+2022-06-14T07:54:23,241 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:11961.5546875|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186063
+2022-06-14T07:54:23,242 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:3601.03515625|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186063
+2022-06-14T07:54:23,242 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:25.2|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186063
+2022-06-14T07:54:23,846 [INFO ] W-9015-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9015
+2022-06-14T07:54:23,846 [INFO ] W-9014-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9014
+2022-06-14T07:54:23,846 [INFO ] W-9008-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9008
+2022-06-14T07:54:23,846 [INFO ] W-9011-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9011
+2022-06-14T07:54:23,846 [INFO ] W-9005-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9005
+2022-06-14T07:54:23,847 [INFO ] W-9015-hdr_1.0-stdout MODEL_LOG - [PID]3980
+2022-06-14T07:54:23,846 [INFO ] W-9004-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9004
+2022-06-14T07:54:23,847 [INFO ] W-9014-hdr_1.0-stdout MODEL_LOG - [PID]3974
+2022-06-14T07:54:23,847 [INFO ] W-9011-hdr_1.0-stdout MODEL_LOG - [PID]3973
+2022-06-14T07:54:23,847 [INFO ] W-9014-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,846 [INFO ] W-9006-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9006
+2022-06-14T07:54:23,847 [INFO ] W-9015-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,846 [INFO ] W-9001-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-06-14T07:54:23,847 [INFO ] W-9003-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9003
+2022-06-14T07:54:23,847 [INFO ] W-9008-hdr_1.0-stdout MODEL_LOG - [PID]3978
+2022-06-14T07:54:23,847 [INFO ] W-9004-hdr_1.0-stdout MODEL_LOG - [PID]3954
+2022-06-14T07:54:23,846 [INFO ] W-9000-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-06-14T07:54:23,846 [INFO ] W-9002-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9002
+2022-06-14T07:54:23,847 [INFO ] W-9011-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,847 [INFO ] W-9015-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,847 [INFO ] W-9014-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,847 [INFO ] W-9001-hdr_1.0-stdout MODEL_LOG - [PID]3979
+2022-06-14T07:54:23,847 [DEBUG] W-9015-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9015-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [INFO ] W-9003-hdr_1.0-stdout MODEL_LOG - [PID]3983
+2022-06-14T07:54:23,847 [DEBUG] W-9004-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9004-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [DEBUG] W-9008-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9008-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [INFO ] W-9000-hdr_1.0-stdout MODEL_LOG - [PID]3949
+2022-06-14T07:54:23,847 [INFO ] W-9008-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,847 [INFO ] W-9011-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,847 [DEBUG] W-9015-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9015-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [DEBUG] W-9008-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9008-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [INFO ] W-9004-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,847 [INFO ] W-9001-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,847 [DEBUG] W-9000-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [DEBUG] W-9014-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9014-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [INFO ] W-9003-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,847 [DEBUG] W-9001-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9001-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [DEBUG] W-9003-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9003-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [DEBUG] W-9011-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9011-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [DEBUG] W-9014-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9014-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [INFO ] W-9000-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,847 [DEBUG] W-9000-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [INFO ] W-9001-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,847 [INFO ] W-9004-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,847 [DEBUG] W-9011-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9011-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [INFO ] W-9002-hdr_1.0-stdout MODEL_LOG - [PID]3976
+2022-06-14T07:54:23,847 [DEBUG] W-9001-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9001-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [DEBUG] W-9003-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9003-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,847 [INFO ] W-9003-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,847 [INFO ] W-9005-hdr_1.0-stdout MODEL_LOG - [PID]3950
+2022-06-14T07:54:23,848 [INFO ] W-9000-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,847 [INFO ] W-9008-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,848 [INFO ] W-9002-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,848 [DEBUG] W-9002-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9002-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,846 [INFO ] W-9007-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9007
+2022-06-14T07:54:23,846 [INFO ] W-9010-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9010
+2022-06-14T07:54:23,848 [INFO ] W-9005-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,848 [INFO ] W-9002-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,846 [INFO ] W-9012-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9012
+2022-06-14T07:54:23,847 [DEBUG] W-9004-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9004-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,848 [INFO ] W-9006-hdr_1.0-stdout MODEL_LOG - [PID]3948
+2022-06-14T07:54:23,846 [INFO ] W-9013-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9013
+2022-06-14T07:54:23,848 [DEBUG] W-9005-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9005-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,848 [INFO ] W-9007-hdr_1.0-stdout MODEL_LOG - [PID]3952
+2022-06-14T07:54:23,848 [DEBUG] W-9005-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9005-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,848 [DEBUG] W-9006-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9006-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,848 [INFO ] W-9006-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,848 [DEBUG] W-9006-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9006-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,848 [DEBUG] W-9007-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9007-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,848 [INFO ] W-9007-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,848 [DEBUG] W-9007-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9007-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,848 [INFO ] W-9013-hdr_1.0-stdout MODEL_LOG - [PID]3975
+2022-06-14T07:54:23,848 [INFO ] W-9006-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,848 [INFO ] W-9005-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,848 [INFO ] W-9007-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,848 [INFO ] W-9012-hdr_1.0-stdout MODEL_LOG - [PID]3977
+2022-06-14T07:54:23,846 [INFO ] W-9009-hdr_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9009
+2022-06-14T07:54:23,848 [INFO ] W-9013-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,848 [DEBUG] W-9002-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9002-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,848 [INFO ] W-9010-hdr_1.0-stdout MODEL_LOG - [PID]3982
+2022-06-14T07:54:23,848 [INFO ] W-9012-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,849 [DEBUG] W-9010-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9010-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,849 [INFO ] W-9009-hdr_1.0-stdout MODEL_LOG - [PID]3981
+2022-06-14T07:54:23,849 [INFO ] W-9010-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,849 [INFO ] W-9013-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,849 [DEBUG] W-9010-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9010-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,849 [DEBUG] W-9012-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9012-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,849 [DEBUG] W-9012-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9012-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,849 [INFO ] W-9009-hdr_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-14T07:54:23,849 [INFO ] W-9010-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,849 [DEBUG] W-9009-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9009-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,849 [DEBUG] W-9009-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9009-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,849 [INFO ] W-9009-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,849 [INFO ] W-9012-hdr_1.0-stdout MODEL_LOG - Python runtime: 3.8.10
+2022-06-14T07:54:23,849 [DEBUG] W-9013-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9013-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,849 [DEBUG] W-9013-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9013-hdr_1.0 State change null -> WORKER_STARTED
+2022-06-14T07:54:23,851 [INFO ] W-9004-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9004
+2022-06-14T07:54:23,851 [INFO ] W-9000-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9000
+2022-06-14T07:54:23,851 [INFO ] W-9006-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9006
+2022-06-14T07:54:23,851 [INFO ] W-9011-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9011
+2022-06-14T07:54:23,851 [INFO ] W-9007-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9007
+2022-06-14T07:54:23,851 [INFO ] W-9015-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9015
+2022-06-14T07:54:23,851 [INFO ] W-9010-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9010
+2022-06-14T07:54:23,851 [INFO ] W-9006-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9006
+2022-06-14T07:54:23,851 [INFO ] W-9015-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9015
+2022-06-14T07:54:23,851 [INFO ] W-9010-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9010
+2022-06-14T07:54:23,851 [INFO ] W-9001-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9001
+2022-06-14T07:54:23,851 [INFO ] W-9014-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9014
+2022-06-14T07:54:23,851 [INFO ] W-9005-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9005
+2022-06-14T07:54:23,851 [INFO ] W-9009-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9009
+2022-06-14T07:54:23,851 [INFO ] W-9012-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9012
+2022-06-14T07:54:23,851 [INFO ] W-9001-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9001
+2022-06-14T07:54:23,851 [INFO ] W-9014-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9014
+2022-06-14T07:54:23,851 [INFO ] W-9005-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9005
+2022-06-14T07:54:23,851 [INFO ] W-9012-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9012
+2022-06-14T07:54:23,851 [INFO ] W-9008-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9008
+2022-06-14T07:54:23,851 [INFO ] W-9009-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9009
+2022-06-14T07:54:23,851 [INFO ] W-9004-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9004
+2022-06-14T07:54:23,851 [INFO ] W-9002-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9002
+2022-06-14T07:54:23,851 [INFO ] W-9013-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9013
+2022-06-14T07:54:23,851 [INFO ] W-9003-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9003
+2022-06-14T07:54:23,851 [INFO ] W-9000-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9000
+2022-06-14T07:54:23,851 [INFO ] W-9007-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9007
+2022-06-14T07:54:23,851 [INFO ] W-9002-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9002
+2022-06-14T07:54:23,851 [INFO ] W-9011-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9011
+2022-06-14T07:54:23,851 [INFO ] W-9008-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9008
+2022-06-14T07:54:23,851 [INFO ] W-9003-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9003
+2022-06-14T07:54:23,851 [INFO ] W-9013-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9013
+2022-06-14T07:54:23,877 [INFO ] W-9002-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9002.
+2022-06-14T07:54:23,878 [INFO ] W-9009-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9009.
+2022-06-14T07:54:23,878 [INFO ] W-9015-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9015.
+2022-06-14T07:54:23,878 [INFO ] W-9001-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-06-14T07:54:23,880 [INFO ] W-9010-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9010.
+2022-06-14T07:54:23,877 [INFO ] W-9006-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9006.
+2022-06-14T07:54:23,877 [INFO ] W-9005-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9005.
+2022-06-14T07:54:23,877 [INFO ] W-9000-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-06-14T07:54:23,881 [INFO ] W-9004-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9004.
+2022-06-14T07:54:23,880 [INFO ] W-9007-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9007.
+2022-06-14T07:54:23,880 [INFO ] W-9003-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9003.
+2022-06-14T07:54:23,880 [INFO ] W-9008-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9008.
+2022-06-14T07:54:23,880 [INFO ] W-9013-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9013.
+2022-06-14T07:54:23,881 [INFO ] W-9014-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9014.
+2022-06-14T07:54:23,881 [INFO ] W-9011-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9011.
+2022-06-14T07:54:23,881 [INFO ] W-9012-hdr_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9012.
+2022-06-14T07:54:23,883 [INFO ] W-9003-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9015-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9011-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9013-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9000-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9013-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9000-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9009-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9014-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9009-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9015-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9014-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9004-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9004-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9008-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9003-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9011-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,883 [INFO ] W-9008-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063883
+2022-06-14T07:54:23,887 [INFO ] W-9002-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063887
+2022-06-14T07:54:23,887 [INFO ] W-9001-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063887
+2022-06-14T07:54:23,887 [INFO ] W-9002-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063887
+2022-06-14T07:54:23,887 [INFO ] W-9001-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063887
+2022-06-14T07:54:23,887 [INFO ] W-9006-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063886
+2022-06-14T07:54:23,887 [INFO ] W-9005-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063886
+2022-06-14T07:54:23,887 [INFO ] W-9006-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063886
+2022-06-14T07:54:23,887 [INFO ] W-9005-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063886
+2022-06-14T07:54:23,887 [INFO ] W-9010-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063887
+2022-06-14T07:54:23,887 [INFO ] W-9012-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063887
+2022-06-14T07:54:23,887 [INFO ] W-9007-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063887
+2022-06-14T07:54:23,887 [INFO ] W-9010-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063887
+2022-06-14T07:54:23,887 [INFO ] W-9007-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063887
+2022-06-14T07:54:23,887 [INFO ] W-9012-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655186063887
+2022-06-14T07:54:23,927 [INFO ] W-9011-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,935 [INFO ] W-9006-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,935 [INFO ] W-9000-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,937 [INFO ] W-9002-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,939 [INFO ] W-9015-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,939 [INFO ] W-9013-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,941 [INFO ] W-9005-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,941 [INFO ] W-9010-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,935 [INFO ] W-9007-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,935 [INFO ] W-9014-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,945 [INFO ] W-9003-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,941 [INFO ] W-9001-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,947 [INFO ] W-9008-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,952 [INFO ] W-9012-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,952 [INFO ] W-9004-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:23,954 [INFO ] W-9009-hdr_1.0-stdout MODEL_LOG - model_name: hdr, batchSize: 1
+2022-06-14T07:54:24,806 [INFO ] W-9000-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 863
+2022-06-14T07:54:24,806 [INFO ] W-9000-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 863
+2022-06-14T07:54:24,806 [DEBUG] W-9000-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,806 [DEBUG] W-9000-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,806 [INFO ] W-9000-hdr_1.0 TS_METRICS - W-9000-hdr_1.0.ms:1937|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,807 [INFO ] W-9000-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:61|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,831 [INFO ] W-9006-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 897
+2022-06-14T07:54:24,831 [INFO ] W-9006-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 897
+2022-06-14T07:54:24,832 [DEBUG] W-9006-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9006-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,832 [DEBUG] W-9006-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9006-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,832 [INFO ] W-9006-hdr_1.0 TS_METRICS - W-9006-hdr_1.0.ms:1961|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,832 [INFO ] W-9006-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:49|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,877 [INFO ] W-9004-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 930
+2022-06-14T07:54:24,877 [INFO ] W-9004-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 930
+2022-06-14T07:54:24,877 [DEBUG] W-9004-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9004-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,877 [DEBUG] W-9004-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9004-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,878 [INFO ] W-9004-hdr_1.0 TS_METRICS - W-9004-hdr_1.0.ms:2007|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,878 [INFO ] W-9004-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:65|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,881 [INFO ] W-9002-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 936
+2022-06-14T07:54:24,881 [INFO ] W-9002-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 936
+2022-06-14T07:54:24,881 [DEBUG] W-9002-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9002-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,881 [DEBUG] W-9002-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9002-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,881 [INFO ] W-9002-hdr_1.0 TS_METRICS - W-9002-hdr_1.0.ms:2010|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,882 [INFO ] W-9002-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:59|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,897 [INFO ] W-9012-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 945
+2022-06-14T07:54:24,897 [INFO ] W-9012-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 945
+2022-06-14T07:54:24,897 [DEBUG] W-9012-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9012-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,897 [DEBUG] W-9012-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9012-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,897 [INFO ] W-9012-hdr_1.0 TS_METRICS - W-9012-hdr_1.0.ms:2024|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,897 [INFO ] W-9012-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:65|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,904 [INFO ] W-9005-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 963
+2022-06-14T07:54:24,904 [INFO ] W-9005-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 963
+2022-06-14T07:54:24,905 [DEBUG] W-9005-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9005-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,905 [DEBUG] W-9005-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9005-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,905 [INFO ] W-9005-hdr_1.0 TS_METRICS - W-9005-hdr_1.0.ms:2034|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,905 [INFO ] W-9005-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:56|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,912 [INFO ] W-9010-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 966
+2022-06-14T07:54:24,912 [INFO ] W-9010-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 966
+2022-06-14T07:54:24,912 [DEBUG] W-9010-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9010-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,912 [DEBUG] W-9010-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9010-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,912 [INFO ] W-9010-hdr_1.0 TS_METRICS - W-9010-hdr_1.0.ms:2039|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,912 [INFO ] W-9010-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:59|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,929 [INFO ] W-9009-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 978
+2022-06-14T07:54:24,929 [INFO ] W-9009-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 978
+2022-06-14T07:54:24,929 [DEBUG] W-9009-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9009-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,929 [DEBUG] W-9009-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9009-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,929 [INFO ] W-9009-hdr_1.0 TS_METRICS - W-9009-hdr_1.0.ms:2058|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,929 [INFO ] W-9009-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:68|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,931 [INFO ] W-9007-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 985
+2022-06-14T07:54:24,931 [INFO ] W-9007-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 985
+2022-06-14T07:54:24,931 [DEBUG] W-9007-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9007-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,931 [DEBUG] W-9007-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9007-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,931 [INFO ] W-9007-hdr_1.0 TS_METRICS - W-9007-hdr_1.0.ms:2060|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,931 [INFO ] W-9007-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:59|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,948 [INFO ] W-9001-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1002
+2022-06-14T07:54:24,948 [INFO ] W-9001-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1002
+2022-06-14T07:54:24,948 [DEBUG] W-9001-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9001-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,948 [DEBUG] W-9001-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9001-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,948 [INFO ] W-9001-hdr_1.0 TS_METRICS - W-9001-hdr_1.0.ms:2078|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,949 [INFO ] W-9001-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:60|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,950 [INFO ] W-9003-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 999
+2022-06-14T07:54:24,950 [INFO ] W-9003-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 999
+2022-06-14T07:54:24,950 [DEBUG] W-9003-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9003-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,950 [DEBUG] W-9003-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9003-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,951 [INFO ] W-9003-hdr_1.0 TS_METRICS - W-9003-hdr_1.0.ms:2080|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,951 [INFO ] W-9003-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:69|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,953 [INFO ] W-9014-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1008
+2022-06-14T07:54:24,953 [INFO ] W-9014-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1008
+2022-06-14T07:54:24,954 [DEBUG] W-9014-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9014-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,954 [DEBUG] W-9014-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9014-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,954 [INFO ] W-9014-hdr_1.0 TS_METRICS - W-9014-hdr_1.0.ms:2079|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,954 [INFO ] W-9014-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:63|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,957 [INFO ] W-9013-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1007
+2022-06-14T07:54:24,957 [INFO ] W-9013-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1007
+2022-06-14T07:54:24,957 [DEBUG] W-9013-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9013-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,957 [DEBUG] W-9013-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9013-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,957 [INFO ] W-9013-hdr_1.0 TS_METRICS - W-9013-hdr_1.0.ms:2083|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,957 [INFO ] W-9013-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:67|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,963 [INFO ] W-9015-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1024
+2022-06-14T07:54:24,963 [INFO ] W-9015-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1024
+2022-06-14T07:54:24,963 [DEBUG] W-9015-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9015-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,963 [DEBUG] W-9015-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9015-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,963 [INFO ] W-9015-hdr_1.0 TS_METRICS - W-9015-hdr_1.0.ms:2088|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,963 [INFO ] W-9015-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:56|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,969 [INFO ] W-9011-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1027
+2022-06-14T07:54:24,969 [INFO ] W-9011-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1027
+2022-06-14T07:54:24,969 [DEBUG] W-9011-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9011-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,969 [DEBUG] W-9011-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9011-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,969 [INFO ] W-9011-hdr_1.0 TS_METRICS - W-9011-hdr_1.0.ms:2096|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,970 [INFO ] W-9011-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:60|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,971 [INFO ] W-9008-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1011
+2022-06-14T07:54:24,971 [INFO ] W-9008-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1011
+2022-06-14T07:54:24,971 [DEBUG] W-9008-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9008-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,971 [DEBUG] W-9008-hdr_1.0 org.pytorch.serve.wlm.WorkerThread - W-9008-hdr_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-14T07:54:24,971 [INFO ] W-9008-hdr_1.0 TS_METRICS - W-9008-hdr_1.0.ms:2100|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:54:24,971 [INFO ] W-9008-hdr_1.0 TS_METRICS - WorkerThreadTime.ms:77|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186064
+2022-06-14T07:55:23,238 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186123
+2022-06-14T07:55:23,238 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:281.9124183654785|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186123
+2022-06-14T07:55:23,238 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:586.9188804626465|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186123
+2022-06-14T07:55:23,238 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:67.6|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186123
+2022-06-14T07:55:23,238 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:10722.15234375|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186123
+2022-06-14T07:55:23,238 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:4854.8984375|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186123
+2022-06-14T07:55:23,239 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:32.9|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186123
+2022-06-14T07:56:23,236 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186183
+2022-06-14T07:56:23,236 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:281.8589973449707|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186183
+2022-06-14T07:56:23,236 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:586.9723014831543|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186183
+2022-06-14T07:56:23,237 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:67.6|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186183
+2022-06-14T07:56:23,237 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10627.01171875|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186183
+2022-06-14T07:56:23,237 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:4948.9140625|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186183
+2022-06-14T07:56:23,237 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:33.5|#Level:Host|#hostname:uneidel-desktop,timestamp:1655186183

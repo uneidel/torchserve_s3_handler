@@ -1,4 +1,5 @@
 # Torchserve S3 Custom Handler
+Custom Handler for torchserve consuming directly from S3 
 
 This is a quick and dirty torchserve custom Handler consuming and returning processed data directly from s3. this is useful when handling with large files.
 
@@ -6,7 +7,8 @@ This is a quick and dirty torchserve custom Handler consuming and returning proc
 
 ## Prerequisites 
 
-pip3 install -r requirements.txt
+1) Create venv
+2) pip3 install torchserve torch 
 
 ## Install minio 
 

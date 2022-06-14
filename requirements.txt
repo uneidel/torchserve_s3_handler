@@ -1,6 +1,4 @@
 minio
 opencv-python
-torch
 numpy
 pillow
-torchvision
